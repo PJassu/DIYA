@@ -1,0 +1,6 @@
+{
+  "name": "DIYA Skills",
+  "description": "Next-generation digital vocational skilling platform with personalized learning paths, offline access, gamified tracking, and real-time mentor feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

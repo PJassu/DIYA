@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Diya Base Lamp Bowl -->
+    <path
+        android:pathData="M30,62 C30,73 40,78 54,78 C68,78 78,73 78,62 C78,60 76,59 74,59 C65,63 43,63 34,59 C32,59 30,60 30,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="60"
+                android:endX="78"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#FFB300" android:offset="0.0" />
+                <item android:color="#FF6F00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Diya Base Stand Rim -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M44,77 L64,77 L62,81 L46,81 Z" />
+
+    <!-- Radiant Inner Flame -->
+    <path
+        android:pathData="M54,28 C54,28 66,42 66,51 C66,58 60.6,63 54,63 C47.4,63 42,58 42,51 C42,42 54,28 54,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="28"
+                android:endX="54"
+                android:endY="63"
+                android:type="linear">
+                <item android:color="#FFF9C4" android:offset="0.0" />
+                <item android:color="#FFD54F" android:offset="0.4" />
+                <item android:color="#FF6D00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Core Flame Spark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,36 C54,36 59,44 59,49 C59,52 56.8,54.5 54,54.5 C51.2,54.5 49,52 49,49 C49,44 54,36 54,36 Z" />
+
+    <!-- Open Knowledge / Digital Skills Wings -->
+    <path
+        android:fillColor="#4DD0E1"
+        android:pathData="M26,52 C31,50 38,52 44,56 L42,59 C37,55 31,54 26,55 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M82,52 C77,50 70,52 64,56 L66,59 C71,55 77,54 82,55 Z" />
+
+    <!-- Digital Tech Nodes -->
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M26,50m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M82,50m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+</vector>
+
